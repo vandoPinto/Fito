@@ -2,33 +2,56 @@
     <img src="recursos/imgs/DAF_FITO_M1A1_RIM01_06_t.svg" style="width: 100%; margin-top: 10px;position: relative;
     z-index: -1;">
 </div>
-<div>
-    <div style="display: flex;align-items: center;height: 320px;justify-content: space-around;">
-        <div style="width: 401px;">
-            <p>Outras políticas também contribuem para o reconhecimento e o uso de plantas medicinais na atenção à
-                saúde, tais como a <a
-                    href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_praticas_integrativas_complementares_2ed.pdf"
-                    target="_blank">Política Nacional de Práticas Integrativas e Complementares</a> (Brasil, 2015), a <a
-                    href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_saude_indigena.pdf"
-                    target="_blank">Política Nacional de Atenção à Saúde dos Povos Indígenas</a> (Brasil, MS, 2002), a
-                <a href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_saude_populacoes_campo.pdf"
-                    target="_blank">Política Nacional de Saúde Integral das Populações do Campo e da Floresta</a>
-                (Brasil, MS, 2013) e a <a
-                    href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_saude_populacao_negra_3d.pdf"
-                    target="_blank">Política Nacional de Saúde Integral da População Negra</a> (Brasil, 2017). E, assim,
-                de forma transversal, a Etnobotânica pode contribuir para a implantação e o desenvolvimento dessas
-                políticas.</p>
-            <p>As diretrizes dessas políticas de saúde estão relacionadas aos cuidados primários em saúde, nos quais
-                organismos internacionais, como a Organização Mundial da Saúde (OMS), juntamente com o movimento da
-                reforma sanitária, no caso do Brasil, convergem na compreensão de que a saúde ultrapassa a dicotomia
-                entre doença-saúde, considerando os determinantes socioambientais importantes para as políticas de
-                saúde.</p>
-        </div>
-        <div class="animate__animated animate__backInRight">
-            <img src="recursos/imgs/DAF_FITO_M1A1_RIM_ilustra24a.svg" style="width: 290px;margin-right: -2px;">
+<div class="coluna-esquerda largura-1_1"
+    style="display: flex;justify-content: center;align-items: center;height: 290px;flex-direction: column;">
+    <div style="margin-top: 40px;display: flex;align-items: center;flex-direction: column;">
+
+        <div class="animate__animated animate__backInLeft">
+            <div
+                style="background-color: #b8be79;border-radius: 30px;width: 722px;display: flex;align-items: center;justify-content: center;flex-direction: row;border-width: 9px;border-style: double;border-color: white;padding: 10px 20px;">
+                <div style="display: flex;align-items: center;width: 100%;justify-content: space-evenly;">
+                    <img src="recursos/icones/DAF_FITO_M1A1_RIM_legislacao.svg" style="width: 92px;margin-right: 28px;">
+                    <div>
+                        <p style="color: #3B3D35;">
+                            Diante desse contexto, ressalta-se a importância da Diretriz 10 do PNPMF, a qual tem por
+                            objetivo “promover e reconhecer as práticas populares de uso das plantas medicinais e
+                            remédios caseiros”. Nessa diretriz, destaca-se o item “10.2 - Identificar e implementar
+                            mecanismos de validação/reconhecimento que levem em conta os diferentes sistemas de
+                            conhecimento (tradicional/popular X técnico/científico)”. Isso coloca a
+                            <b>Etnobotânica</b> e, em particular a <b>Etnofarmacologia</b> e seus métodos como
+                            importantes no desenvolvimento dessa diretriz. Além disso, é uma etapa importante para
+                            conhecer as práticas de cura/cuidado da população ou de determinados grupos sociais e uma
+                            importante estratégia para a seleção de plantas para a construção de hortos e para a
+                            estruturação de <span style="background-color: #BCAA8A;"><a style="color: black;"
+                                    id="hotWord-bt">Farmácia Viva</a></span>.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <footer style="padding: 0; ">
     <img src="recursos/imgs/DAF_FITO_M1A1_RIM01_07_b.svg" style="width: 100%; z-index: -1;  position: relative;">
 </footer>
+<div id="conteudo"
+    style="position: absolute;background-color: #BCAA8A;top: 330px;right: 90px;width: 475px;border-radius: 16px;padding: 16px 13px;">
+    <p style="font-size: 10px;">No contexto da Política Nacional de Assistência Farmacêutica, deverá realizar todas as
+        etapas, desde o cultivo, a coleta, o processamento, o armazenamento de plantas medicinais, a manipulação e a
+        dispensação de preparações magistrais e oficinais de plantas medicinais e fitoterápicos. Fica vedada a
+        comercialização de plantas medicinais e fitoterápicos elaborados pela Farmácia Viva, bem como fica sujeita ao
+        disposto em regulamentação sanitária e ambiental específicas. Assim, caracteriza-se como um serviço próprio do
+        âmbito público do SUS e está inserida na Assistência Farmacêutica (Brasil, MS, 2017).
+    </p>
+</div>
+<script>
+    $(() => {
+        let conteudo = $('#conteudo').hide();
+        $('#hotWord-bt').css('cursor', 'pointer').hover(() => {
+            conteudo.fadeIn()
+        })
+        $('#hotWord-bt').mouseout(() => {
+            conteudo.fadeOut()
+        })
+    })
+</script>

@@ -3,67 +3,25 @@
     z-index: -1;">
 </div>
 <div>
-    <div style="display: flex;align-items: center;height: 320px;justify-content: space-around;">
-        <div style="width: 460px;">
-
-            <p style="margin-top: 20px;">Bioprospecção é um processo que serve de base para o desenvolvimento de
-                <span style="background-color: #BCAA8A;"><a style="color: black;"
-                        id="hotWord-bt_1">fitoterápicos</a></span> e <span style="background-color: #BCAA8A;"><a
-                        style="color: black;" id="hotWord-bt_2">fitofármacos</a></span>. É importante destacar que o
-                fitofármaco refere-se a
-                uma substância isolada
-                a partir de uma planta medicinal, com identidade química definida, utilizada na formulação de um novo
-                medicamento. Já os fitoterápicos são composições complexas, formadas por uma mistura
-                de diversos
-                compostos bioativos (fitocomplexo) presentes na planta, mantendo as características do extrato vegetal
-                original.
-            </p>
+    <div style="display: flex;height: 320px;align-items: center;justify-content: space-around;">
+        <div class="animate__animated animate__backInLeft">
+            <img src="recursos/imgs/DAF_FITO_M1A1_RIM_ilustra18.svg" style="width: 290px;margin-left: 20px;">
         </div>
-        <div class="animate__animated animate__backInRight">
-            <img src="recursos/imgs/DAF_FITO_M1A1_RIM_ilustra17.svg " style="width: 292px;margin-right: -2px;">
+        <div style="width: 421px;">
+            <p>Para atender a Política Nacional de Plantas Medicinais e Fitoterápicos (PNPMF) a regulação sanitária
+                produziu avanços, reconhecendo a tradicionalidade de uso como um dos aspectos importantes para registro,
+                por intermédio da definição de uma nova categoria, a do produto tradicional fitoterápico (PTF), ora
+                denominado medicamento tradicional fitoterápico (MTF) (Brasil, Anvisa, 2014; 2025). A criação da
+                categoria PTF foi uma das soluções encontradas pela Anvisa para estimular a indústria nacional de
+                fitoterápicos.</p>
+            <p>Cabe esclarecer que, embora ambas as categorias de fitoterápicos – medicamentos fitoterápicos (MF) e MTF
+                – sejam elaboradas exclusivamente com matérias-primas vegetais, do ponto de vista da legislação
+                sanitária, possuem regras diferentes para obtenção da autorização de produção e comercialização, de
+                acordo com a Resolução da Diretoria Colegiada (RDC) n° 1.004, de 17 de dezembro de 2025 (Brasil, Anvisa,
+                2025).</p>
         </div>
     </div>
 </div>
 <footer style="padding: 0; ">
     <img src="recursos/imgs/DAF_FITO_M1A1_RIM01_07_b.svg" style="width: 100%; z-index: -1;  position: relative;">
 </footer>
-<div id="conteudo_1"
-    style="position: absolute;background-color: #BCAA8A;top: 260px;left: 30px;width: 337px;border-radius: 16px;padding: 16px 13px;">
-    <p style="font-size: 10px;"><b>Fitoterápico</b>: “medicamento obtido de matéria-prima ativa vegetal, exceto
-        substâncias isoladas ou altamente purificadas, com finalidade profilática, curativa ou paliativa, incluindo as
-        categorias de medicamento fitoterápico e de medicamento tradicional fitoterápico, podendo ser simples, quando o
-        ativo é proveniente de uma única espécie vegetal, ou composto, quando o ativo é proveniente de mais de uma
-        espécie vegetal” (Brasil, Anvisa, 2025).</p>
-</div>
-<div id="conteudo_2"
-    style="position: absolute;background-color: #BCAA8A;top: 260px;left: 80px;width: 315px;border-radius: 16px;padding: 16px 13px;">
-    <p style="font-size: 10px;">
-        <b>Fitofármaco</b>: substância purificada e isolada a partir de matéria-prima vegetal com estrutura química
-        conhecida e
-        atividade
-        farmacológica definida. Os fitofármacos não são considerados fitoterápicos e devem atender a legislação para
-        medicamentos sintéticos. Além disso, não são considerados fitofármacos os compostos isolados que sofram qualquer
-        etapa de semissíntese ou modificação de sua estrutura química. Um exemplo de fitofármaco é a digoxina, que é
-        utilizada no tratamento de problemas cardíacos. É um digitálico, ou seja, um glicosídeo cardiotônico,
-        proveniente de plantas do gênero <i>Digitalis</i>, sobretudo <em><i>Digitalis</i> purpurea L</em>. e
-        <em><i>Digitalis</i> lanata Ehrh</em>.
-    </p>
-</div>
-<script>
-    $(() => {
-        let conteudo1 = $('#conteudo_1').hide();
-        let conteudo2 = $('#conteudo_2').hide();
-        $('#hotWord-bt_1').css('cursor', 'pointer').hover(() => {
-            conteudo1.fadeIn()
-        })
-        $('#hotWord-bt_1').mouseout(() => {
-            conteudo1.fadeOut()
-        })
-        $('#hotWord-bt_2').css('cursor', 'pointer').hover(() => {
-            conteudo2.fadeIn()
-        })
-        $('#hotWord-bt_2').mouseout(() => {
-            conteudo2.fadeOut()
-        })
-    })
-</script>
